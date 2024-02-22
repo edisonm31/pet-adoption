@@ -174,7 +174,6 @@ body {
   font-family: "Source Sans 3", sans-serif;
   font-size: 1.15rem;
   color: #9f9f9f;
-  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -182,8 +181,10 @@ body {
   color: #7d7d7d;
 }
 
-.pet-filter .active {
-  color: #475AFF
+.pet-filter .active, .pet-filter .active:hover {
+  color: #475AFF;
+  text-decoration: underline;
+  
 }
 
 .site-footer {
